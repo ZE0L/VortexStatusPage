@@ -12,7 +12,7 @@ sites:
     skipDeleteIssues: true
 
 workflowSchedule:
-  uptime: "* * * * *"
+  uptime: "*/5 * * * *"
   responseTime: "0 */6 * * *"
   graphs: "0 */6 * * *"
   staticSite: "0 */6 * * *"
